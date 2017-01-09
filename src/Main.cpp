@@ -26,7 +26,7 @@ int main(int argc, char** argv)
   const std::string fileA = argv[1];
   const std::string fileX = argv[2];
   const std::string fileY = argv[3];
-  // const int mode = std::stoi(argv[4]);
+  // const int mode = std::atoi(argv[4]);
 
   // display command line args
   std::cout << "\nCommand Line Arguments:\n";
